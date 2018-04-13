@@ -30,3 +30,7 @@ It gives you complete control of your home in your hand. *But, don't confuse it 
 ``` DHT.h ``` is used to get the temperature and humidity data from the DHT11 Sensor.
 
 After this is done, there are 3 lines in the code which have some Macro definition there to specify the pins which are being used as output and input pins. After that, the *ssid*, *password* of the network to which the Node MCU is connected and *server URl* of the broker that has to be use, i have used [iot.eclipse.org](https://iot.eclipse.org/).
+
+### Objects and intializations
+
+* ```WiFiClient espClient;```: Here, espClient is an object of the WiFiClient class
