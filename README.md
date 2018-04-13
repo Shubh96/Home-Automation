@@ -21,7 +21,10 @@ It gives you complete control of your home in your hand. *But, don't confuse it 
 #include "DHT.h" 
 ```
 
-``` Adafruit_Sensor.h ``` is used to be able to integrate the DHT11 functions into the code
+``` Adafruit_Sensor.h ``` is used to be able to integrate the DHT11 functions into the code.
+
 ``` ESP8266WiFi.h ``` is used to provide ESP8266 specific Wi-Fi routines which we are calling to connect to network.
+
 ``` PubSubClient.h ``` is used to Publish and Subscribe data to and from the MQTT broker.
+
 ``` DHT.h ``` is used to get the temperature and humidity data from the DHT11 Sensor.
